@@ -63,14 +63,14 @@ export default class TransactionScreen extends Component {
             <Text style={styles.buttonText}>Scan QR Code</Text>
           </TouchableOpacity> 
         */}
-        {/*
+        
           <TouchableOpacity
             style={[styles.button, { marginTop: 25 }]}
             onPress={() => this.getCameraPermissions("scanner")}
           >
             <Text style={styles.buttonText}>Scan QR Code</Text>
           </TouchableOpacity> 
-        */}
+        
         {/*
           <TouchableOpacity
             style={[styles.button, { marginTop: 25 }]}
